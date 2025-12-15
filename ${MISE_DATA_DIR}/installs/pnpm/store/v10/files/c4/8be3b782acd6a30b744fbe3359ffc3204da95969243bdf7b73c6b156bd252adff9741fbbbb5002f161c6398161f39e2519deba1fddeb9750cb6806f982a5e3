@@ -1,0 +1,27 @@
+import { type DOMKeyframesDefinition, type DynamicAnimationOptions } from 'motion/react';
+import type { HTMLAttributes } from 'svelte/elements';
+declare class __sveltets_Render<T extends keyof HTMLElementTagNameMap = keyof HTMLElementTagNameMap> {
+    props(): HTMLAttributes<HTMLElementTagNameMap[T]> & {
+        initial?: DOMKeyframesDefinition;
+        animate?: DOMKeyframesDefinition;
+        exit?: DOMKeyframesDefinition;
+        whileHover?: DOMKeyframesDefinition;
+        whileTap?: DOMKeyframesDefinition;
+        transition?: DynamicAnimationOptions;
+        as?: T | undefined;
+    };
+    events(): {};
+    slots(): {};
+    bindings(): "";
+    exports(): {};
+}
+interface $$IsomorphicComponent {
+    new <T extends keyof HTMLElementTagNameMap = keyof HTMLElementTagNameMap>(options: import('svelte').ComponentConstructorOptions<ReturnType<__sveltets_Render<T>['props']>>): import('svelte').SvelteComponent<ReturnType<__sveltets_Render<T>['props']>, ReturnType<__sveltets_Render<T>['events']>, ReturnType<__sveltets_Render<T>['slots']>> & {
+        $$bindings?: ReturnType<__sveltets_Render<T>['bindings']>;
+    } & ReturnType<__sveltets_Render<T>['exports']>;
+    <T extends keyof HTMLElementTagNameMap = keyof HTMLElementTagNameMap>(internal: unknown, props: ReturnType<__sveltets_Render<T>['props']> & {}): ReturnType<__sveltets_Render<T>['exports']>;
+    z_$$bindings?: ReturnType<__sveltets_Render<any>['bindings']>;
+}
+declare const Motion: $$IsomorphicComponent;
+type Motion<T extends keyof HTMLElementTagNameMap = keyof HTMLElementTagNameMap> = InstanceType<typeof Motion<T>>;
+export default Motion;

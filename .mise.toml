@@ -1,6 +1,6 @@
 [tools]
 node = "lts"
-pnpm = "latest"
+pnpm = "10"
 
 [env]
 PNPM_HOME = "${MISE_DATA_DIR}/installs/pnpm"

@@ -1,0 +1,24 @@
+{
+	"/": [],
+	"/api/mock/comments/[id]": [
+		"src/routes/api/mock/comments/[id]/+server.ts"
+	],
+	"/api/mock/replies/[id]": [
+		"src/routes/api/mock/replies/[id]/+server.ts"
+	],
+	"/api/mock/shorts/[id]": [
+		"src/routes/api/mock/shorts/[id]/+server.ts"
+	],
+	"/api/mock/stream": [
+		"src/routes/api/mock/stream/+server.ts"
+	],
+	"/api/mock/users/[id]": [
+		"src/routes/api/mock/users/[id]/+server.ts"
+	],
+	"/api/mock/videos/[id]": [
+		"src/routes/api/mock/videos/[id]/+server.ts"
+	],
+	"/api/mock/video/[id]": [
+		"src/routes/api/mock/video/[id]/+server.ts"
+	]
+}

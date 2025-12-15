@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@latest",
+  "packageManager": "pnpm@10.24.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -14,9 +14,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@phosphor-icons/svelte": "^2.1.1",
     "@vercel/analytics": "^1.5.0",
-    "motion-svelte": "^1.0.0"
+    "motion-svelte": "^0.0.1"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",

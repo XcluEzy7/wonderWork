@@ -1,0 +1,9 @@
+import type { DOMKeyframesDefinition, DynamicAnimationOptions } from 'motion/react';
+import type { Action } from 'svelte/action';
+import Motion from './motion.svelte';
+export default Motion;
+type Parameter = (DOMKeyframesDefinition & {
+    transition?: DynamicAnimationOptions;
+}) | undefined;
+export declare const animate: Action<Element, Parameter>;
+export declare function generateCssFromInitial(initial?: DOMKeyframesDefinition): string;
